@@ -55,7 +55,7 @@ export default function HowItWorks() {
                 >
                   <step.icon className="w-6 h-6" />
                 </div>
-                <span className="text-xs font-bold text-primary uppercase tracking-wider">{step.number}</span>
+                <span className="text-lg font-bold text-primary uppercase tracking-wider">{step.number}</span>
                 <h3 className="text-lg font-bold text-dark mt-1 mb-3">{step.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
               </div>

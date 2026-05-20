@@ -28,7 +28,7 @@ export default function Hero() {
             tecnologia, praticidade e conformidade legal.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <a
               href="#contato"
               className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-3.5 rounded-lg text-base font-semibold hover:bg-blue-700 transition-colors shadow-lg shadow-primary/30"
@@ -37,14 +37,14 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
-              href="#login"
-              className="inline-flex items-center justify-center gap-2 border-2 border-gray-400 text-gray-200 px-8 py-3.5 rounded-lg text-base font-semibold hover:border-white hover:text-white transition-colors"
+              href="#orcamento"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white/50 text-white px-8 py-3.5 rounded-lg text-base font-semibold hover:border-white transition-colors"
             >
               <ShieldCheck className="w-5 h-5" />
-              ACESSAR PLATAFORMA
+              ACESSAR FORMULÁRIO
             </a>
           </div>
-        </div>
+                </div>
       </div>
     </section>
   );

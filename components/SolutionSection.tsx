@@ -19,21 +19,21 @@ const features = [
     icon: FileText,
     title: "Documentos Técnicos",
     description:
-      "PGR, AET, ASO, PCMSO e laudos gerados com base nos dados reais coletados, não em templates genéricos.",
+      "PGR, AET, ASO, PCMSO e laudos gerados com base nos dados reais coletados, não importa o template, nossa IA fará a análise conforme seu prompt.",
     color: "bg-emerald-50 text-emerald-600",
   },
   {
     icon: Target,
     title: "Plano de Ação Monitorado",
     description:
-      "Recomendações priorizadas por risco, com status, responsáveis, prazos e evidências em tempo real.",
+      "Recomendações priorizadas por risco/fator, com status, planos de ações confome os dados coletados. Crie ações e iniciativas, com responsáveis, prazos e evidências em tempo real.",
     color: "bg-amber-50 text-amber-600",
   },
   {
     icon: ClipboardList,
     title: "Inspeções e Checklists",
     description:
-      "Formulários mobile para vistorias in loco, com fotos, assinaturas e não conformidades documentadas.",
+      "Transforme sua gestão facilitada através da gestão dos planos de ações.",
     color: "bg-rose-50 text-rose-600",
   },
 ];

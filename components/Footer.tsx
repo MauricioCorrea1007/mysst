@@ -1,4 +1,4 @@
-import { ShieldCheck, Instagram, Mail, MapPin } from "lucide-react";
+import { ShieldCheck, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -34,11 +34,19 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>contato@mysst.com.br</span>
+                <span>contato@zenobiaconsultoria.com.br</span>
               </div>
               <div className="flex items-center gap-2">
                 <Instagram className="w-4 h-4 text-primary" />
-                <span>@mysst_nr01</span>
+                <span>@zenobiaconsultoria</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary" />
+                <span>+55 47 99609-9966</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-primary" />
+                <span>Rua Lazio, 50 - Sala 601 - Blumenau/SC</span>
               </div>
             </div>
           </div>

@@ -20,13 +20,14 @@ export default function CTAFinal() {
             QUERO COMEÇAR O DIAGNÓSTICO
             <ArrowRight className="w-5 h-5" />
           </a>
-          <a
-            href="#login"
-            className="inline-flex items-center justify-center gap-2 border-2 border-white/50 text-white px-8 py-3.5 rounded-lg text-base font-semibold hover:border-white transition-colors"
-          >
-            <ShieldCheck className="w-5 h-5" />
-            ACESSAR PLATAFORMA
-          </a>
+           <div className="flex justify-center">
+            <img
+              src="/qrcode-pesquisa.png"
+              alt="QR Code Pesquisa"
+              className="w-32 h-32 md:w-40 md:h-40 rounded-lg shadow-lg border-2 border-white bg-white"
+            />
+          </div>
+ 
         </div>
       </div>
     </section>

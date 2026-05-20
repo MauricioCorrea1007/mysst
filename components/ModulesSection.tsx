@@ -1,23 +1,37 @@
-import {
-  Search,
-  Database,
-  ListChecks,
-  FileText,
-  ArmchairIcon,
-  HeartPulse,
-  ClipboardList,
-  LayoutDashboard,
-} from "lucide-react";
+
+import { ShieldCheck, Brain, BarChart2, User, CheckCircle, FileText } from "lucide-react";
 
 const modules = [
-  { icon: Search, title: "Diagnóstico NR-01", desc: "Pesquisas customizadas + relatório de maturidade em SST" },
-  { icon: Database, title: "Inventário de Riscos", desc: "Mapeamento por CNAE, atividade e fatores psicossociais" },
-  { icon: ListChecks, title: "Plano de Ação", desc: "Recomendações, prazos, status e evidências" },
-  { icon: FileText, title: "PGR", desc: "Programa de Gerenciamento de Riscos documentado" },
-  { icon: ArmchairIcon, title: "AET", desc: "Análise Ergonômica do Trabalho por função e posto" },
-  { icon: HeartPulse, title: "PCMSO + ASO", desc: "Programa de Controle Médico e Atestados" },
-  { icon: ClipboardList, title: "Inspeções", desc: "Checklists mobile com fotos e assinaturas" },
-  { icon: LayoutDashboard, title: "Dashboard", desc: "Indicadores em tempo real para gestão" },
+  {
+    icon: ShieldCheck,
+    title: "GRO Sem Burocracia",
+    desc: "Automatize todo o ciclo da NR01. Documentação sempre atualizada e em conformidade com o MTE."
+  },
+  {
+    icon: Brain,
+    title: "MRP com IA e COPSOQ II",
+    desc: "Quantifique riscos psicossociais com algoritmos e análise estruturada. Métricas exatas e relatórios rápidos."
+  },
+  {
+    icon: BarChart2,
+    title: "Inteligência Visual",
+    desc: "Heatmaps, radar, matrizes e gráficos para decisões rápidas e visibilidade total dos riscos."
+  },
+  {
+    icon: User,
+    title: "Coleta 100% Digital e Anônima",
+    desc: "Interface segura para colaboradores, garantindo dados honestos e diagnósticos reais."
+  },
+  {
+    icon: CheckCircle,
+    title: "Plano de Ação Sob Medida",
+    desc: "Ações personalizadas, acompanhamento de evolução e integração nativa ao PGR."
+  },
+  {
+    icon: FileText,
+    title: "Evidências Prontas para Auditoria",
+    desc: "Relatórios técnicos padronizados, segurança de dados e conformidade ética."
+  }
 ];
 
 export default function ModulesSection() {
@@ -31,7 +45,7 @@ export default function ModulesSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {modules.map((mod, index) => (
             <div
               key={index}
