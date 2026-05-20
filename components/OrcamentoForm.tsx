@@ -1,6 +1,6 @@
 
 "use client";
-import { useState } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 
 export default function OrcamentoForm() {
   const [form, setForm] = useState({
@@ -11,11 +11,13 @@ export default function OrcamentoForm() {
     colaboradores: ""
   });
 
-  function handleChange(e) {
+
+  function handleChange(e: ChangeEvent<HTMLInputElement>) {
     setForm({ ...form, [e.target.name]: e.target.value });
   }
 
-  function handleSubmit(e) {
+
+  function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     // Aqui você pode adicionar lógica de envio
     alert("Solicitação enviada! Em breve entraremos em contato.");
