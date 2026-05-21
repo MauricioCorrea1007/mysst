@@ -13,10 +13,9 @@ const menu = [
   "GRO e PGR",
   "SAÚDE MENTAL NA NR-01",
   "AVALIAÇÃO DE RISCOS PSICOSSOCIAIS",
-  "TREINAMENTOS SEGUNDO A NR-01",
-  "MULTAS E PENALIDADES",
-  "PRAZO DE ADEQUAÇÃO",
-  "INFORMAÇÕES DE PRODUTO"
+  "MULTAS E PENALIDADES RELACIONADAS A NR-01",
+  "PRAZO DE ADEQUAÇÃO"
+
 ];
 
 export default function GuiaNR01Completo() {
@@ -156,65 +155,88 @@ export default function GuiaNR01Completo() {
       <section id="AVALIAÇÃO-DE-RISCOS-PSICOSSOCIAIS" className="mb-12">
         <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">AVALIAÇÃO DE RISCOS PSICOSSOCIAIS</h2>
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
-          <p className="mb-4 text-lg leading-relaxed">A partir de 2026, todas as empresas brasileiras deverão incluir a avaliação de riscos psicossociais no gerenciamento de Segurança e Saúde no Trabalho (SST). Essa exigência resulta da atualização da Norma Regulamentadora nº 01 (NR-01), realizada pelo Ministério do Trabalho e Emprego – MTE.</p>
-          <p className="mb-2 text-lg leading-relaxed font-bold">Perfil das empresas brasileiras</p>
+          <p className="mb-4 text-lg leading-relaxed">A avaliação de riscos psicossociais deve seguir a mesma lógica dos demais riscos ocupacionais:</p>
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
-            <li>Serviços: 60.918 novos estabelecimentos (+3,43%);</li>
-            <li>Comércio: 24.346 unidades (+1,51%);</li>
-            <li>Construção: 10.795 novas empresas (+3,93%).</li>
+            <li>Identificar fatores como estresse crônico, sobrecarga, assédio moral, baixa autonomia, jornadas excessivas, conflitos interpessoais.</li>
+            <li>Avaliar o nível de exposição e a gravidade de cada fator.</li>
+            <li>Registrar no inventário de riscos do PGR.</li>
+            <li>Monitorar continuamente com planos de ação e evidências.</li>
+        
           </ul>
-          <p className="mb-2 text-lg leading-relaxed font-bold">O que são riscos psicossociais?</p>
-          <p className="mb-2 text-lg leading-relaxed">Os riscos psicossociais estão ligados à organização do trabalho e às relações interpessoais dentro do ambiente laboral. Entre os principais fatores, destacam-se:</p>
+          <p className="mb-2 text-lg leading-relaxed font-bold">O cenário de (des)preparação das empresas</p>
+          <p className="mb-2 text-lg leading-relaxed">Os números recentes são preocupantes:</p>
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
-            <li>Estresse, ansiedade, depressão e outros problemas psicológicos.</li>
+            <li>Empresas preparadas para a NR-01: apenas 5% - Fonte: Exame (set/2025) </li>
+            <li>Empresas que não sabem o que muda: quase 70% - Fonte: Instagram/LinkedIn (abr/2026)</li>
+            <li>Empresas que não sabem como cumprir: 68% - Fonte: Ius Natura (abr/2026)</li>
+            <li>Empresas que ainda não se adequaram: quase 50% - Fonte: Fellipelli Consultoria (fev/2026)</li>
+            
           </ul>
-          <p className="mb-2 text-lg leading-relaxed font-bold">Mudanças trazidas pela atualização da NR-01</p>
+          <p className="mb-2 text-lg leading-relaxed font-bold">Na prática: de cada 20 empresas, apenas 1 está pronta. As outras 19 estão expostas a riscos de multa, embargo e responsabilização.</p>
+          <p>O que cai na fiscalização:</p>
+          <p>O Manual de Interpretação e Aplicação lançado pelo MTE em março de 2026 deixou claro que a fiscalização vai cobrar:</p>
+          <p>📋 Documentação obrigatória:</p>
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
-            <li>Identificação e avaliação dos riscos psicossociais, independentemente do tamanho da empresa;</li>
-            <li>Elaboração e implementação de planos de ação, com medidas preventivas e corretivas;</li>
-            <li>Monitoramento contínuo das ações, garantindo sua eficácia e revisando sempre que necessário.</li>
+            <li>inventário de riscos com psicossociais incluídos</li>
+            <li>plano de ação com medidas preventivas e corretivas</li>
+            <li>registros de consulta aos trabalhadores (pesquisas de percepção, entrevistas)</li>
+            <li>evidências de monitoramento contínuo</li>    
           </ul>
-          <p className="mb-2 text-lg leading-relaxed font-bold">Fiscalização</p>
+          <p className="mb-2 text-lg leading-relaxed font-bold">🔍 Métodos aceitos:</p>
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
-            <li>Organização do trabalho;</li>
-            <li>Registros de afastamentos por doenças mentais;</li>
-            <li>Entrevistas com trabalhadores;</li>
-            <li>Documentação relacionada à gestão de riscos psicossociais;</li>
-            <li>Necessidade de profissionais especializados.</li>
+            <li>questionários validados (como COPSOQ)</li>
+            <li>entrevistas e grupos focais</li>
+            <li>análise de indicadores (absenteísmo, rotatividade, afastamentos)</li>
+            <li>inspeções no ambiente de trabalho</li>
           </ul>
+          <p className="mb-2 text-lg leading-relaxed font-bold">O risco financeiro</p>
+          <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
+            <li>Segundo pesquisa da Fellipelli Consultoria, as multas podem chegar a R$ 900 mil para empresas que não se adequarem — considerando múltiplos autos de infração por itens diferentes da NR-28, agravados pelo porte da empresa e reincidência.</li>
+          </ul>
+          <p className="mb-2 text-lg leading-relaxed font-bold">O gargalo principal</p>
+          <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
+            <li>68% das empresas não sabem como cumprir porque a avaliação de riscos psicossociais exige metodologia, ferramentas digitais e profissionais qualificados — algo que a maioria das pequenas e médias empresas simplesmente não tem internamente. É aí que plataformas como a mysst fazem a diferença: estruturam o diagnóstico, aplicam as pesquisas, consolidam os resultados e geram os documentos prontos para auditoria.</li>
+          </ul>
+
           <p className="text-lg leading-relaxed mb-0">Importância da medida: reforça a necessidade de ambientes de trabalho saudáveis, promovendo a saúde mental e o bem-estar dos trabalhadores, contribuindo para reduzir afastamentos e aumentar a produtividade.</p>
         </div>
       </section>
-      <section id="TREINAMENTOS-SEGUNDO-A-NR-01" className="mb-12">
-        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">TREINAMENTOS SEGUNDO A NR-01</h2>
-        <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
-          <p className="text-lg leading-relaxed mb-0">Conteúdo a ser adicionado conforme necessidade.</p>
-        </div>
-      </section>
+      
       <section id="MULTAS-E-PENALIDADES" className="mb-12">
-        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">MULTAS E PENALIDADES</h2>
+        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">MULTAS E PENALIDADES EM DESCUMPRIMENTO A NR-01</h2>
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-0">
-            <li>Multas variam de acordo com o porte da empresa e a gravidade da infração.</li>
-            <li>Possibilidade de interdição de atividades.</li>
-            <li>Responsabilização civil e criminal em caso de acidente ou adoecimento ocupacional.</li>
+            <li>A NR-01 não é uma recomendação — é obrigação legal. E o descumprimento gera consequências que vão muito além de uma notificação.</li>
+            <p>Como as multas são calculadas: </p>
+            <li>As penalidades seguem a NR-28 (Fiscalização e Penalidades), atualizada pela Portaria MTE nº 1.131/2025. O valor final da multa depende de três fatores: </li>
+            <li>Gravidade da infração — classificação em escala de I1 a I4:
+                <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
+                    <li>I1 - Leve: Falhas documentais menores</li>
+                    <li>I2 - Grave: Ausência parcial de registros</li>
+                    <li>I3 - Gravíssima: Falta de PGR ou inventário de riscos</li>
+                    <li>I4 - Gravíssima com agravantes: Reincidência ou exposição comprovada a risco grave</li>
+                </ul>
+            </li>
+            <li>Número de funcionários — a multa é proporcional ao porte da empresa. Quanto maior, maior o valor.</li>
+            <li>Reincidência — infrações repetidas podem elevar o valor em dobro ou mais.</li>
+            <p>Valores práticos (2026)</p>
+            <li>Para infrações relacionadas ao Gerenciamento de Riscos Ocupacionais (GRO) e PGR, os valores por autuação podem variar de R$ 700 a mais de R$ 8.000 por item — e uma única fiscalização pode lavrar múltiplos autos de infração sobre itens diferentes da NR-01.</li>
+            <li>Considerando que a NR-01 possui mais de 30 itens passíveis de autuação (conforme Anexo II da NR-28), uma empresa completamente desalinhada pode acumular dezenas de multas em uma única fiscalização.</li>
+            <p>Além das multas — penalidades mais graves:</p>
+            <li>⚠️ Embargo e interdição — a fiscalização pode embargar obras ou interditar máquinas, setores ou até a empresa inteira até que as irregularidades sejam sanadas. Isso significa paralisação total ou parcial das operações.</li>
+            <li>⚠️ Dano moral coletivo — o Ministério Público do Trabalho (MPT) pode ingressar com Ação Civil Pública exigindo indenizações por danos morais coletivos, com valores que frequentemente ultrapassam R$ 500 mil.</li>
+            <li>⚠️ Passivo trabalhista — em ações individuais, trabalhadores podem pleitear indenizações por danos morais e materiais decorrentes de doenças ocupacionais ou acidentes que a NR-01 tinha a obrigação de prevenir.</li>
+            <li>⚠️ Responsabilização criminal — em casos de acidente com morte, os gestores podem responder criminalmente por homicídio culposo.</li>
           </ul>
         </div>
       </section>
       <section id="PRAZO-DE-ADEQUAÇÃO" className="mb-12">
         <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">PRAZO DE ADEQUAÇÃO</h2>
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
-          <p className="mb-4 text-lg leading-relaxed">A inclusão formal dos riscos psicossociais na Norma Regulamentadora nº 1 (NR-1) entra em vigor em 26 de maio de 2026, com o objetivo de exigir que as empresas avaliem e gerenciem fatores como carga de trabalho excessiva, assédio moral e ausência de suporte adequado por parte da liderança.</p>
-          <p className="mb-4 text-lg leading-relaxed">Embora a data de obrigatoriedade para fins de autuação esteja fixada em 26 de maio de 2026, foi estabelecido um período prévio de caráter educativo, iniciado em 26 de maio de 2025, permitindo que as organizações se preparem para atender às novas exigências.</p>
-          <p className="text-lg leading-relaxed mb-0">Nesse contexto, o Ministério do Trabalho e Emprego (MTE) disponibilizou um manual com o objetivo de orientar empresas e profissionais na gestão de riscos ocupacionais. A publicação apresenta diretrizes para a correta interpretação e aplicação do Capítulo 1.5 da Norma Regulamentadora nº 1, que trata do Gerenciamento de Riscos Ocupacionais (GRO), reforçando a importância da identificação, avaliação e controle dos riscos, inclusive os de natureza psicossocial.</p>
+          <p className="mb-4 text-lg leading-relaxed">Com a atualização da NR-01 promovida pela Portaria MTE nº 1.419/2024, as empresas ganharam um período de transição para se estruturar. As obrigações gerais — como PGR, inventário de riscos e treinamentos — já são exigíveis desde a publicação da norma. Já a inclusão dos riscos psicossociais no Gerenciamento de Riscos Ocupacionais (GRO) teve como marco de exigibilidade plena maio de 2026. Isso significa que, a partir de agora, a fiscalização do Ministério do Trabalho pode cobrar a gestão completa — incluindo mapeamento, avaliação e monitoramento dos fatores psicossociais — e aplicar as penalidades previstas na NR-28 para empresas que não comprovarem a conformidade. O prazo de adequação já está vigente, e quem não se estruturou está exposto a multas, embargos e outras sanções.</p>
         </div>
       </section>
-      <section id="INFORMAÇÕES-DE-PRODUTO" className="mb-12">
-        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">INFORMAÇÕES DE PRODUTO</h2>
-        <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
-          <p className="text-lg leading-relaxed mb-0">Entre em contato para saber como a mysst pode ajudar sua empresa a se adequar à NR-01 e gerenciar riscos psicossociais de forma eficiente.</p>
-        </div>
-      </section>
+      
     </div>
   );
 }
