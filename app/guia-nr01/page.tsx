@@ -20,7 +20,7 @@ const menu = [
 
 export default function GuiaNR01Completo() {
   return (
-    <div className="max-w-3xl mx-auto px-2 md:px-4 py-10">
+    <div className="max-w-6xl mx-auto px-4 md:px-8 py-10">
       <h1 className="text-4xl font-bold mb-6 text-center">Guia Completo sobre NR-01</h1>
       <nav className="mb-8">
         <ul className="flex flex-wrap gap-2 justify-center">
@@ -116,6 +116,90 @@ export default function GuiaNR01Completo() {
           <p className="text-lg leading-relaxed mb-0">Enquanto o GRO é o processo de análise e controle de riscos, o PGR é a formalização e gestão desses processos, transformando as análises do GRO em ações concretas, documentadas e fiscalizáveis.</p>
         </div>
       </section>
+
+      <section id="EXEMPLOS-RISCOS-PSICOSSOCIAIS" className="mb-12">
+        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">Exemplos de Riscos Psicossociais</h2>
+        <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
+          <p className="mb-4 text-lg leading-relaxed font-bold">Segundo o Guia de Fatores de Riscos Psicossociais do MTE (2025), alguns dos principais fatores são:</p>
+          <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
+            <li>Exigências emocionais excessivas;</li>
+            <li>Sobrecarga de tarefas ou metas abusivas;</li>
+            <li>Falta de apoio da liderança;</li>
+            <li>Percepção de injustiça ou desrespeito;</li>
+            <li>Assédio moral ou sexual;</li>
+            <li>Conflito entre vida pessoal e profissional;</li>
+            <li>Insegurança em relação à estabilidade do emprego;</li>
+          </ul>
+          <p className="mb-4 text-lg leading-relaxed">Esses fatores não apenas afetam a saúde mental, mas também geram impactos diretos em absenteísmo, rotatividade, produtividade e clima organizacional.</p>
+
+          <div className="overflow-x-auto mt-8 mb-6">
+            <table className="min-w-full border border-cyan-200 bg-white rounded-xl text-sm md:text-base">
+              <thead>
+                <tr className="bg-cyan-100 text-cyan-900">
+                  <th className="px-4 py-2 border-b font-bold">Categoria</th>
+                  <th className="px-4 py-2 border-b font-bold">Tipo de Risco</th>
+                  <th className="px-4 py-2 border-b font-bold">Possível Impacto na Saúde</th>
+                  <th className="px-4 py-2 border-b font-bold">Medidas Preventivas Sugeridas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 border-b">Exigências do trabalho</td>
+                  <td className="px-4 py-2 border-b">Carga e ritmo</td>
+                  <td className="px-4 py-2 border-b">Estresse crônico, burnout, ansiedade, distúrbios do sono</td>
+                  <td className="px-4 py-2 border-b">Redistribuir tarefas, revisar prazos, limitar jornada, implementar pausas obrigatórias</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b">Organização e gestão</td>
+                  <td className="px-4 py-2 border-b">Estrutural / Gerencial</td>
+                  <td className="px-4 py-2 border-b">Insegurança, desengajamento, estresse por ambiguidade de papéis</td>
+                  <td className="px-4 py-2 border-b">Mapear e documentar funções, criar canais de comunicação de mudanças, revisar processos internos</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b">Relações no trabalho</td>
+                  <td className="px-4 py-2 border-b">Social / Ético</td>
+                  <td className="px-4 py-2 border-b">Depressão, síndrome do pânico, traumas psicológicos, turnover elevado</td>
+                  <td className="px-4 py-2 border-b">Implementar canal de denúncias, treinar lideranças, política de tolerância zero a assédio e discriminação</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b">Controle e autonomia</td>
+                  <td className="px-4 py-2 border-b">Autonomia / Participação</td>
+                  <td className="px-4 py-2 border-b">Baixa autoestima profissional, frustração, perda de iniciativa</td>
+                  <td className="px-4 py-2 border-b">Criar comitês participativos, flexibilizar métodos e horários, reduzir microgestão</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b">Reconhecimento e justiça</td>
+                  <td className="px-4 py-2 border-b">Remuneratório / Equidade</td>
+                  <td className="px-4 py-2 border-b">Desmotivação, sentimento de injustiça, absenteísmo</td>
+                  <td className="px-4 py-2 border-b">Estruturar planos de carreira, revisar faixas salariais, criar programas de reconhecimento formais</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b">Conflito trabalho–vida pessoal</td>
+                  <td className="px-4 py-2 border-b">Conciliação</td>
+                  <td className="px-4 py-2 border-b">Fadiga crônica, problemas familiares, queda de produtividade</td>
+                  <td className="px-4 py-2 border-b">Respeitar o direito à desconexão, implementar jornada flexível ou híbrida, incentivar uso de férias</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b">Situações críticas ou traumáticas</td>
+                  <td className="px-4 py-2 border-b">Traumático / Emergencial</td>
+                  <td className="px-4 py-2 border-b">TEPT, estresse agudo, fobia laboral, afastamentos prolongados</td>
+                  <td className="px-4 py-2 border-b">Oferecer suporte psicológico imediato (PES), rodízio de funções críticas, debriefing pós-evento</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mb-4 text-lg leading-relaxed font-bold">Outros riscos, são como os vistos abaixo:</p>
+          <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
+            <li>Identificação de todos os riscos ocupacionais presentes no ambiente de trabalho;</li>
+            <li>Medidas de prevenção e controle para cada risco identificado, incluindo ações de monitoramento e melhoria contínua;</li>
+            <li>Documentação e registros, garantindo rastreabilidade e conformidade legal;</li>
+            <li>Treinamento e capacitação dos trabalhadores, promovendo conscientização e cultura de prevenção.</li>
+          </ul>
+          <p className="text-lg leading-relaxed mb-0">Enquanto o GRO é o processo de análise e controle de riscos, o PGR é a formalização e gestão desses processos, transformando as análises do GRO em ações concretas, documentadas e fiscalizáveis.</p>
+        </div>
+      </section>
+
       <section id="SAÚDE-MENTAL-NA-NR-01" className="mb-12">
         <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">SAÚDE MENTAL NA NR-01</h2>
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
