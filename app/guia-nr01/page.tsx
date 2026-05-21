@@ -6,9 +6,9 @@ export const metadata = {
 };
 
 const menu = [
-  "INTRODUÇÃO À NR-01",
-  "OBJETIVOS DA NR-01",
-  "ESTRUTURA DA NR-01",
+  "O QUE É A NR-01",
+  "PROPÓSITOS DA NR-01",
+  "ORGANIZAÇÃO DA NR-01",
   "RESPONSABILIDADES",
   "GRO e PGR",
   "SAÚDE MENTAL NA NR-01",
@@ -34,44 +34,44 @@ export default function GuiaNR01Completo() {
           ))}
         </ul>
       </nav>
-      <section id="INTRODUÇÃO-À-NR-01" className="mb-12">
-        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">INTRODUÇÃO À NR-01</h2>
+      <section id="O-QUE-É-A-NR-01" className="mb-12">
+        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">O QUE É A NR-01</h2>
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
-          <p className="mb-0 text-lg leading-relaxed">A Norma Regulamentadora nº 01 (NR-01), base de todo o sistema de saúde e segurança do trabalho no Brasil, passou por atualização que incluiu a responsabilidade dos empregadores sobre riscos psicossociais. Apesar da obrigatoriedade, as empresas têm prazo para adequação até 2026. A NR-1 estabelece os princípios gerais e diretrizes que orientam a aplicação das demais normas regulamentadoras, definindo direitos, deveres e responsabilidades de empregadores e trabalhadores. Além de padronizar procedimentos, a norma busca promover uma cultura de prevenção, reduzindo riscos e fortalecendo a gestão integrada de segurança e saúde no ambiente laboral. Sua importância está em servir como ponto de partida para a conformidade legal e para a construção de ambientes de trabalho mais seguros, saudáveis e produtivos.</p>
+          <p className="mb-0 text-lg leading-relaxed">A NR-01 é a espinha dorsal do sistema de segurança e saúde no trabalho no Brasil. Com sua atualização mais recente, ela passou a exigir que os empregadores também respondam pelos riscos psicossociais — um avanço significativo na proteção dos trabalhadores.As empresas têm até 2026 para se adequar à nova exigência. A norma define os princípios gerais, direitos, deveres e responsabilidades tanto de empregadores quanto de colaboradores, servindo como referência para todas as demais normas regulamentadoras.Mais do que organizar procedimentos, a NR-01 busca criar uma cultura de prevenção — reduzindo riscos, fortalecendo a gestão integrada de segurança e tornando o ambiente de trabalho mais seguro, saudável e produtivo.</p>
         </div>
       </section>
-      <section id="OBJETIVOS-DA-NR-01" className="mb-12">
-        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">OBJETIVOS DA NR-01</h2>
-        <p className="mb-6 text-lg leading-relaxed">A Norma Regulamentadora nº 01 (NR-01) tem como principal objetivo estabelecer as disposições gerais que orientam e fundamentam todas as demais Normas Regulamentadoras de Segurança e Saúde no Trabalho. Ela define os direitos e deveres de empregadores e trabalhadores, criando um alicerce legal e organizacional para a prevenção de acidentes e doenças ocupacionais.</p>
+      <section id="PROPÓSITOS-DA-NR-01" className="mb-12">
+        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">PROPÓSITOS DA NR-01</h2>
+        <p className="mb-6 text-lg leading-relaxed">A NR-01 é a norma que estabelece as bases de todo o sistema de Segurança e Saúde no Trabalho no Brasil. Ela define os direitos e deveres de empregadores e trabalhadores, criando o alicerce legal e organizacional para prevenir acidentes e doenças ocupacionais.</p>
 
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 mb-6 border border-cyan-200 shadow-sm">
           <div className="flex items-center gap-3 mb-2">
             <span className="text-cyan-400 text-3xl">✔️</span>
-            <span className="font-black text-xl md:text-2xl text-dark">Entre seus propósitos centrais estão:</span>
+            <span className="font-black text-xl md:text-2xl text-dark">Seus propósitos centrais são:</span>
           </div>
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2">
-            <li>Garantir a proteção à saúde e segurança dos trabalhadores, por meio de diretrizes que assegurem condições dignas e seguras de trabalho;</li>
-            <li>Estabelecer responsabilidades claras para empregadores e empregados, reforçando a importância do cumprimento das normas e da cooperação entre as partes;</li>
-            <li>Uniformizar procedimentos e interpretações, de forma que todas as empresas sigam parâmetros consistentes e alinhados à legislação trabalhista;</li>
-            <li>Promover uma cultura de prevenção, incentivando práticas que minimizem riscos e fortaleçam a gestão de saúde e segurança no ambiente de trabalho;</li>
-            <li>Integrar a administração de riscos ocupacionais, servindo como base para o Programa de Gerenciamento de Riscos (PGR), que é exigência para a maioria das organizações.</li>
+            <li>🔒 Proteger a saúde e segurança dos trabalhadores — com diretrizes que garantam condições dignas e seguras no ambiente de trabalho;</li>
+            <li>📋 Definir responsabilidades claras — para empregadores e empregados, reforçando a cooperação e o cumprimento das normas;</li>
+            <li>📐 Uniformizar procedimentos — para que todas as empresas sigam parâmetros consistentes e alinhados à legislação trabalhista;</li>
+            <li>🛡️ Promover uma cultura de prevenção — incentivando práticas que reduzam riscos e fortaleçam a gestão de SST;</li>
+            <li>⚙️ Integrar o gerenciamento de riscos ocupacionais — servindo de base para o PGR, exigência para a maioria das organizações.</li>
           </ul>
         </div>
-        <p className="text-lg leading-relaxed">Em síntese, o objetivo da NR-01 é fornecer um marco normativo inicial que norteia a aplicação de todas as demais normas regulamentadoras, garantindo segurança jurídica e fortalecendo a gestão preventiva nas relações de trabalho.</p>
+        <p className="text-lg leading-relaxed">Em síntese, a NR-01 é o marco normativo que orienta todas as demais normas regulamentadoras, garantindo segurança jurídica e fortalecendo a gestão preventiva nas relações de trabalho.</p>
       </section>
-      <section id="ESTRUTURA-DA-NR-01" className="mb-12">
-        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">ESTRUTURA DA NR-01</h2>
+      <section id="ORGANIZACAO-DA-NR-01" className="mb-12">
+        <h2 className="text-3xl font-extrabold mb-4 border-b-4 border-cyan-400 pb-2 w-fit">ORGANIZAÇÃO DA NR-01</h2>
         <div className="bg-[#f8fafc] rounded-xl p-6 md:p-8 border border-cyan-200 shadow-sm">
-          <p className="mb-4 text-lg leading-relaxed">A Norma Regulamentadora nº 01 (NR-01) possui uma estrutura que organiza as disposições gerais aplicáveis a todas as demais normas regulamentadoras. Sua composição foi desenvolvida para fornecer clareza, padronização e segurança jurídica no cumprimento das obrigações de saúde e segurança no trabalho.</p>
+          <p className="mb-4 text-lg leading-relaxed">A NR-01 é organizada em uma estrutura que reúne as disposições gerais aplicáveis a todas as demais normas regulamentadoras. Cada seção foi pensada para trazer clareza, padronização e segurança jurídica no cumprimento das obrigações de SST.</p>
           <ul className="list-disc ml-8 text-lg leading-relaxed space-y-2 mb-4">
-            <li>Disposições gerais – definem o campo de aplicação da norma, seu caráter obrigatório e a quem se destina;</li>
-            <li>Direitos e deveres – estabelecem as responsabilidades tanto de empregadores quanto de trabalhadores no cumprimento das medidas de segurança e saúde;</li>
-            <li>Capacitação e treinamento – tratam das diretrizes mínimas para qualificação, capacitação, treinamento inicial e periódico, visando à prevenção de riscos;</li>
-            <li>Gerenciamento de riscos ocupacionais – integra a NR-01 ao Programa de Gerenciamento de Riscos (PGR), exigindo das empresas a identificação de perigos e a implementação de medidas preventivas;</li>
-            <li>Documentos digitais – regulamentam a utilização do meio eletrônico para guarda e apresentação de documentos de segurança e saúde no trabalho, se alinhando à transformação digital;</li>
-            <li>Disposições finais e transitórias – tratam de regras complementares e prazos de adaptação para as empresas.</li>
+            <li>📋 Disposições gerais — definem o campo de aplicação da norma, seu caráter obrigatório e a quem se destina</li>
+            <li>⚖️ Direitos e deveres — estabelecem as responsabilidades de empregadores e trabalhadores na adoção das medidas de segurança e saúde</li>
+            <li>🎓 Capacitação e treinamento — tratam das diretrizes mínimas para qualificação, capacitação, treinamento inicial e periódico, visando à prevenção de riscos;</li>
+            <li>🛠️ Gerenciamento de riscos ocupacionais — integra a NR-01 ao Programa de Gerenciamento de Riscos (PGR), exigindo das empresas a identificação de perigos e a implementação de medidas preventivas;</li>
+            <li>📁 Documentos digitais — regulamentam a utilização do meio eletrônico para guarda e apresentação de documentos de segurança e saúde no trabalho, se alinhando à transformação digital;</li>
+            <li>📜 Disposições finais e transitórias — tratam de regras complementares e prazos de adaptação para as empresas.</li>
           </ul>
-          <p className="text-lg leading-relaxed mb-0">Essa estrutura permite que a NR-01 funcione como uma norma de caráter introdutório e orientador, servindo de referência para a aplicação das demais NRs, sempre com foco na prevenção, organização e melhoria contínua das condições de trabalho.</p>
+          <p className="text-lg leading-relaxed mb-0">Essa estrutura faz da NR-01 uma norma de caráter introdutório e orientador, servindo de referência para todas as demais NRs — sempre com foco na prevenção, organização e melhoria contínua das condições de trabalho.</p>
         </div>
       </section>
       <section id="RESPONSABILIDADES" className="mb-12">

@@ -8,8 +8,10 @@ import AudienceSection from "@/components/AudienceSection";
 import Differentials from "@/components/Differentials";
 import FAQ from "@/components/FAQ";
 import CTAFinal from "@/components/CTAFinal";
-import GuiaNR01Button from "@/components/GuiaNR01Button";
-import OrcamentoForm from "@/components/OrcamentoForm";
+import GuiaNR01Button from "../components/GuiaNR01Button";
+
+import WhatsappFloat from "@/components/WhatsappFloat";
+
 
 export default function Home() {
   return (
@@ -20,11 +22,12 @@ export default function Home() {
       <HowItWorks />
       <ModulesSection />
       <GuiaNR01Button />
-      <OrcamentoForm />
+
       <AudienceSection />
       <Differentials />
       <FAQ />
       <CTAFinal />
+      <WhatsappFloat />
     </>
   );
 }

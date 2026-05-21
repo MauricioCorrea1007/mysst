@@ -1,4 +1,5 @@
 import { ShieldCheck, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Footer() {
@@ -43,6 +44,15 @@ export default function Footer() {
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <span>+55 47 99609-9966</span>
+                <a
+                  href="https://wa.me/554799609966"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 text-green-500 hover:text-green-600"
+                  aria-label="WhatsApp"
+                >
+                  <FaWhatsapp className="w-5 h-5 inline" />
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />

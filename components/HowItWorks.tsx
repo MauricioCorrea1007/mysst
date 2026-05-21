@@ -42,7 +42,7 @@ export default function HowItWorks() {
         <div className="text-center mb-14">
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">Passo a Passo</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-dark mt-3 mb-4">
-            Em 4 passos, sua SST em dia
+            Como será sua jornada da gestão dos riscos psicossociais na sua empresa
           </h2>
         </div>
 
